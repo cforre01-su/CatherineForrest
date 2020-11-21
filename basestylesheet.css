@@ -29,7 +29,7 @@ a {
 }
 
 a:hover {
-  color: #edd384;
+  color: white;
   text-decoration: none;
 }
 
@@ -44,7 +44,7 @@ a:hover {
 
 .navbar-toggler {
   background-color: #101f38;
-  color: #edd384;
+  color: white;
 }
 
 .nav-bg {
