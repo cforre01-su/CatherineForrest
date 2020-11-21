@@ -4,16 +4,13 @@ body {
   height: auto;
   font-family: "Raleway", sans-serif;
   font-display: color #101f38;
-  background: rgb(136, 157, 184);
-  background: linear-gradient(
-    180deg,
-    rgba(136, 157, 184, 1) 0%,
-    rgba(196, 209, 226, 1) 49%,
-    rgba(230, 235, 241, 1) 100%
-  );
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#889db8",endColorstr="#f2faff",GradientType=1);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+    background: rgb(255,255,255);
+    background: -moz-linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(168,87,133,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(168,87,133,1) 100%);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(168,87,133,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#a85785",GradientType=1);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 * {
